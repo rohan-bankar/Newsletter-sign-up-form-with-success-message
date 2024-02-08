@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+<div class="container">
+  <div class="box-1">
+    <h1 class="heading">
+      Stay updated!
+    </h1>
+    <p class="paragraph">
+      Join 60,000+ product managers receiving monthly updates on:
+    </p>
+
+    <div class="facilities">
+      <img src="./assets/images/icon-list.svg" alt="">
+      <p class="one">
+        Product discovery and building what matters
+      </p>
+      <img src="./assets/images/icon-list.svg" alt="">
+      <p class="two">
+        Measuring to ensure updates are a success
+      </p>
+      <img src="./assets/images/icon-list.svg" alt="">
+      <p class="three">
+        And much more!
+      </p>
+    </div>
+    <span class="email-label">
+      Email address
+    </span>
+    <span class="email-error">
+      Valid email required
+    </span><br>
+    <input type="text" class="email" placeholder="Email address"><br>
+    <button class="btn">
+      Subscribe to monthly newsletter
+    </button>
+  </div>
+  <div class="box-2">
+    <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" class="sign-up">
+  </div>
+</div>
+
+<div class="thankyou-card">
+  <img src="./assets/images/icon-success.svg" alt="" class="tick">
+    <div class="gratitude">
+      <p>Thanks for subscribing!</p>
+    </div>
+    <div class="paragraph">
+      <p>A confirmation email has been sent to <span class="userEmail" style="font-weight: bold;"></span>. 
+        Please open it and click the button inside to confirm your subscription.</p>
+    </div>
+    <button class="btn-message">
+      Dismiss message
+    </button>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
